@@ -1,0 +1,13 @@
+import customtkinter as ctk
+
+# 画面の作成
+app = ctk.CTk()
+app.geometry("400x300")
+app.title("最初のGUI")
+
+# ボタンの作成（クリックしても何も起きないシンプルなもの）
+button = ctk.CTkButton(app, text="テストボタン")
+button.pack(pady=50)
+
+# 実行
+app.mainloop()
